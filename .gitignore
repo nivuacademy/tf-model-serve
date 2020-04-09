@@ -1,0 +1,8 @@
+/scripts/butterfly_model.h5
+/scripts/inception.h5
+
+/butter
+
+/.vscode
+
+/flask_server/__pycache__/*

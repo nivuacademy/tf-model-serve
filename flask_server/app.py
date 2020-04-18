@@ -51,7 +51,7 @@ def image_classifier():
     r = requests.post(
         'http://localhost:9000/v1/models/ImageClassifier:predict', data=data)
 
-    # print(r.content)
+    print(r.content)
     obj = json.loads(r.content.decode('utf-8'))
     obj_pred = obj['predictions']
     # print(obj_pred[0])
